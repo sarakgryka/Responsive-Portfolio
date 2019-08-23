@@ -216,35 +216,17 @@ body {
     border: 0 none;
   }
 
-  @media only screen and (max-width: 640px) {
-      #masthead {
-          position: static;
-      }
 
-    #logo{
-        width: 100%;
-    }
-    nav {
-        padding-right: 125px;
-       
-    }
-
-    .work {
-        width: 100%;
-    }
-    #main-container {
-        margin-top: -150px;
-        
-    
-    }
-    .auth-image {
-        width: 100%;
-     }
-
-}
   
-  @media only screen and (max-width: 768px) {
+ 
+@media only screen and (max-width: 980px) {
 
+    .main-section {
+        width: 75%;
+        padding: 50px;
+        margin-left: 20px;
+        
+    }
     nav {
         margin-right: 50px;
     }
@@ -252,13 +234,55 @@ body {
     #logo {
         margin-left: 20px;
     }
-   
     .auth-image {
         width: 50%;
     }
-
-    }
-  @media only screen and (max-width: 980px) {
     
 
     }
+
+@media only screen and (max-width: 768px) {
+
+        nav {
+            margin-right: 50px;
+        }
+    
+        #logo {
+            margin-left: 20px;
+        }
+       
+        .auth-image {
+            width: 60%;
+        }
+
+        .main-section{
+            width: 95%;
+        }
+    
+        }
+@media only screen and (max-width: 640px) {
+            #masthead {
+                position: static;
+            }
+      
+          #logo{
+              width: 100%;
+          }
+          nav {
+              padding-right: 125px;
+             
+          }
+      
+          .work {
+              width: 100%;
+          }
+          #main-container {
+              margin-top: -150px;
+              
+          
+          }
+          .auth-image {
+              width: 100%;
+           }
+      
+      }
