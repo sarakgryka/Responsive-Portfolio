@@ -225,7 +225,7 @@ body {
         width: 100%;
     }
     nav {
-        padding-right: 200px;
+        padding-right: 125px;
        
     }
 
@@ -237,11 +237,25 @@ body {
         
     
     }
+    .auth-image {
+        width: 100%;
+     }
 
 }
   
   @media only screen and (max-width: 768px) {
+
+    nav {
+        margin-right: 50px;
+    }
+
+    #logo {
+        margin-left: 20px;
+    }
    
+    .auth-image {
+        width: 50%;
+    }
 
     }
   @media only screen and (max-width: 980px) {
